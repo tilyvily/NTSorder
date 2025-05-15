@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sixtyfour+Convergence&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Hind", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 8vh;
+    background-color: #245299;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #b2cdf5;
+    font-size: 20px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.edit {
+    width: 30px;
+    color: #b2cdf5;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.gronBox {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    font-family: "Hind", sans-serif;
+}
+
+.info {
+    height: 100%;
+    background-color: #b7ebc3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #0e7724;
+}
+
+#orderNameText, #orderStartText, #orderSlutText {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0e7724;
+}
+
+.Startdatum {
+    width: 17.5%;
+    background-color: #b7ebc3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0e7724;
+    font-size: 13px;
+}
+
+.Slutdatum {
+    width: 17.5%;
+    background-color: #b7ebc3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0e7724;
+    font-size: 13px;
+}
+
+.addressBox {
+    width: 100%;
+    height: 5vh;
+    background-color: #cbeed3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    color: #0e7724;
+}
+
+.kartnal {
+    width: 30px;
+    margin: 5px;
+}
+
+.falt {
+    background-color: white;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.knappBildBox {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.knappBildBox img {
+    width: 30%;
+}
+
+.knappBildBox p {
+    font-size: 15px;
+}
+
+.knappRubrikLiggare {
+    color: gray;
+}
+
+.knappBoxBotten {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.knappBoxBotten button {
+    border: none;
+    width: 80%;
+    margin: 10px;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+}
+
+#avslutaKnapp {
+    background-color: #f33c3c;
+}
+
+#pausaKnapp {
+    background-color: #a21cf0;
+}
